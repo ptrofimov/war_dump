@@ -21,14 +21,6 @@ Released   : 20080311
 <script type="text/javascript" src="bar_dump.js"></script>
 </head>
 <body>
-<?php var_dump(array(1,2,3)); ?>
-<?php $a=$b;?>
-<?php $a=$b;?>
-<?php $a=$b;?>
-<?php $a=$b;?>
-<?php $a=$b;?>
-<?php $a=$b;?>
-<?php $a=$b;?>
 <div id="header-wrapper">
 	<div id="header">
 		<div id="menu">
@@ -40,9 +32,11 @@ Released   : 20080311
 				<li><a href="#">Links</a></li>
 				<li><a href="#">Contact</a></li>
 			</ul>
+			<?php var_dump(array('Lorem','ipsum','sed','aliquam','Lorem','ipsum','sed','aliquam'))?>
 		</div>
 		<!-- end #menu -->
 		<div id="search">
+			<?php trigger_error('Failed to render menu',E_USER_NOTICE)?>
 			<form method="get" action="">
 				<fieldset>
 				<input type="text" name="s" id="search-text" size="15" />
@@ -69,11 +63,13 @@ Released   : 20080311
 			<div class="entry">
 				<img src="images/img16.jpg" alt="" width="110" height="110" class="left" />
 				<p>This is <strong>Optimism</strong>, a free, fully standards-compliant CSS template designed by <a href="http://www.nodethirtythree.com/">NodeThirtyThree</a> for <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>, released for free under the <a href="http://creativecommons.org/licenses/by/2.5/">Creative Commons Attribution 2.5</a> license. The photos in this design are from <a href="http://www.pdphoto.org/">PDPhoto.org</a>. You're free to use this template for anything as long as you link back to <a href="http://www.freecsstemplates.org/">my site</a>. Enjoy :)</p>
+				<?php trigger_error('File not found',E_USER_WARNING)?>
 				<p>Sed lacus. Donec lectus. Nullam pretium nibh ut turpis. Nam bibendum. In nulla tortor, elementum ipsum. Proin imperdiet est. Phasellus dapibus semper urna. Pellentesque ornare, orci in felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem.</p>
 				<p class="links"><a href="#" class="comments">Comments (64)</a> &nbsp;&nbsp;&nbsp; <a href="#" class="permalink">Full article</a></p>
 			</div>
 		</div>
 		<div class="post">
+			<?php var_dump(array('Lorem','ipsum','sed','aliquam'))?>
 			<h2 class="title">Lorem ipsum sed aliquam</h2>
 			<p class="meta"><em>{ Posted by <a href="#">enks</a> on March 8, 2008 }</em></p>
 			<div class="entry">
@@ -85,6 +81,7 @@ Released   : 20080311
 	</div>
 	<!-- end #content -->
 	<div id="sidebar">
+		<?php var_dump(array('Mauris','vitae','nisl','metus','placerat'))?>
 		<ul>
 			<li>
 				<h2>Aliquam tempus</h2>
@@ -176,6 +173,9 @@ Released   : 20080311
 				<p style="clear: both; margin: 0; line-height: normal; text-align: right;"><a href="#">More photos &gt;</a></p>
 			</li>
 		</ul>
+		<?php trigger_error('Shit happened',E_USER_NOTICE)?>
+		<?php trigger_error('Shit happened again',E_USER_NOTICE)?>
+		<?php trigger_error('Oh my god!',E_USER_NOTICE)?>
 	</div>
 	<!-- end #sidebar -->
 	<div style="clear: both;">&nbsp;</div>
