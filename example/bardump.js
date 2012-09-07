@@ -4,7 +4,7 @@ $(function() {
 	div.css({
 		'position' : 'fixed',
 		'z-index' : '1000000',
-		 'display' : 'none',
+		// 'display' : 'none',
 		'width' : $(window).width(),
 		'height' : $(window).height(),
 		'left' : 0,
@@ -32,7 +32,7 @@ $(function() {
 	frame.css({
 		// width:$(window).width()-50,
 		height : $(window).height() - 40,
-		background : '#0c9',
+		background : '#595',
 		'overflow-y' : 'scroll'
 	});
 	frame.appendTo(div);
@@ -41,7 +41,7 @@ $(function() {
 		var row = $('<div></div>');
 		row.append($i);
 		row.css({
-			border : 'solid #0c9 5px',
+			border : 'solid #595 5px',//0c9
 			//padding:'5px',
 			height : '30px',
 			overflow : 'hidden',
