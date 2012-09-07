@@ -17,9 +17,18 @@ Released   : 20080311
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="bardump.js"></script>
 </head>
 <body>
 <?php var_dump(array(1,2,3)); ?>
+<?php $a=$b;?>
+<?php $a=$b;?>
+<?php $a=$b;?>
+<?php $a=$b;?>
+<?php $a=$b;?>
+<?php $a=$b;?>
+<?php $a=$b;?>
 <div id="header-wrapper">
 	<div id="header">
 		<div id="menu">
