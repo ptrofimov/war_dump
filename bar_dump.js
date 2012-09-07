@@ -4,7 +4,7 @@ $(function() {
 	div.css({
 		'position' : 'fixed',
 		'z-index' : '1000000',
-		// 'display' : 'none',
+		 'display' : 'none',
 		'width' : $(window).width(),
 		'height' : $(window).height(),
 		'left' : 0,
