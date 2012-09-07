@@ -8,6 +8,9 @@
 
 ## Benefits
 
+* Hides all dumps and errors from user's eye
+* Handy to view errors in one place
+
 ## Installation
 
 1. Requires jQuery
@@ -17,3 +20,8 @@
 <script type="text/javascript" src="bar_dump.js"></script>
 ```
 4. Enjoy!
+
+## Notice
+
+Now it works only with XDebug-highlighted var_dumps and errors.
+In future it could be possible to catch all dumps and errors
