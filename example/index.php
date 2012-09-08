@@ -18,7 +18,7 @@ Released   : 20080311
 <meta name="description" content="" />
 <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
 <script type="text/javascript" src="jquery.js"></script>
-<script type="text/javascript" src="bar_dump.js"></script>
+<script type="text/javascript" src="war_dump.js"></script>
 </head>
 <body>
 <div id="header-wrapper">

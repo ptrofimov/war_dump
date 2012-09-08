@@ -1,10 +1,10 @@
-# bar_dump
+# war_dump
 
-*Collects PHP dumps and errors to console*
+*Web-console for PHP var_dumps and errors*
 
 ## How it works
 
-![bar_dump scheme](https://raw.github.com/ptrofimov/bar_dump/master/images/scheme.png)
+![war_dump scheme](https://raw.github.com/ptrofimov/war_dump/master/images/scheme.png)
 
 ## Benefits
 
@@ -14,10 +14,10 @@
 ## Installation
 
 1. Requires jQuery
-2. Download [bar_dump](https://raw.github.com/ptrofimov/bar_dump/master/bar_dump.js)
+2. Download [war_dump](https://raw.github.com/ptrofimov/war_dump/master/war_dump.js)
 3. Include it in your page
 ```
-<script type="text/javascript" src="bar_dump.js"></script>
+<script type="text/javascript" src="war_dump.js"></script>
 ```
 4. Enjoy!
 

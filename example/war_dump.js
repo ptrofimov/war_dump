@@ -1,7 +1,7 @@
 /**
- * bar_dump: collects PHP dumps and errors to console
+ * war_dump: web-console for PHP var_dumps and errors
  * 
- * @link https://github.com/ptrofimov/bar_dump
+ * @link https://github.com/ptrofimov/war_dump
  * @author Petr Trofimov <petrofimov@yandex.ru>
  */
 $(function() {
@@ -12,7 +12,7 @@ $(function() {
 		'padding' : '10px',
 		'background' : '#f57900',
 		'font-weight' : 'bold'
-	}).text('bar_dump: collects PHP dumps and errors to console');
+	}).text('war_dump: web-console for PHP var_dumps and errors');
 
 	var frame = $('<div></div>').css({
 		'height' : $(window).height() - 40,
