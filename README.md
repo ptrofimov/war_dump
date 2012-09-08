@@ -8,8 +8,9 @@
 
 ## Benefits
 
-* Hides all dumps and errors from user's eye
+* Hides all var_dumps and errors from user's eye
 * Handy to view errors in one place
+* No changes required to your PHP files
 
 ## Installation
 
@@ -24,4 +25,4 @@
 ## Notice
 
 Now it works only with XDebug-highlighted var_dumps and errors.
-In future it could be possible to catch all dumps and errors
+In future it could be possible to catch all dumps and errors.
