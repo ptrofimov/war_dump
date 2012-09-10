@@ -26,3 +26,7 @@
 
 Now it works only with XDebug-highlighted var_dumps and errors.
 In future it could be possible to catch all dumps and errors.
+
+## Important !!!
+
+I am gonna implement extracting var_dumps and errors from AJAZ-responses. If you'd like to be a collaborator, write me to issues.
